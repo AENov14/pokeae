@@ -1,0 +1,37 @@
+{
+    "name": "@asahelk/pogo-script",
+    "version": "1.3.0",
+    "description": "Script to get cc from pokemap web. Only works with grunts(pokestops)",
+    "main": "./dist/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/asahelk/PogoScript.git"
+    },
+    "keywords": [
+        "pokemongoscript",
+        "pokemongo",
+        "script",
+        "pokemap",
+        "nycpokemap",
+        "sydneypogomap",
+        "sgpokemap"
+    ],
+    "author": "Ｈａｋａｉ",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/asahelk/PogoScript/issues"
+    },
+    "homepage": "https://github.com/asahelk/PogoScript#readme",
+    "devDependencies": {
+        "webpack": "^5.61.0",
+        "webpack-cli": "^4.9.1"
+    },
+    "dependencies": {
+        "@asahelk/pogo-script": "^1.3.0",
+        "javascript-obfuscator": "^3.0.0"
+    }
+}
